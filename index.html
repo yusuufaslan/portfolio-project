@@ -17,31 +17,38 @@
             text-align: center;
             font-size: 20px;
         }
-        /* .social img {
-            display: block;
+        table {
+            font-family:sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border: 1px, double, black;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 1%;
-            margin-top: 1%;
-        } */
-        ul {
-          display: inline-block;
-          margin-left: 29%;
-          margin-bottom: 3%;
+            margin-bottom: 2%;
+            margin-top: 4%;
+        }
+        th, td {
+            text-align: center;
+            width: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;
         }
 
     </style>
 </head>
 <body>
     <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
         <a href="#home" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="#about"><i class="fa fa-fw fa-pencil"></i> About</a>
         <a href="#blog"><i class="fa fa-fw fa-medium"></i> Blog</a>
         <a href="https://github.com/yusuufaslan" target="_blank"><i class="fa fa-fw fa-github"></i> Projects</a>
         <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
         <a href="#myTopnav" id="name">Yusuf ASLAN</a>
     </div>
     <section class="content">
@@ -49,23 +56,29 @@
       <hr style="margin-left: 35%; margin-right: 35%">
       <h1 style="text-align: center;">YUSUF ASLAN</h1>
       <hr style="margin-left: 25%; margin-right: 25%">
-      <p>Freshman, Computer Engineering at Istanbul Technical University.</p>
+      <p>Freshman, Computer Engineering Student at Istanbul Technical University.</p>
       <p>Graduated from Bursa Ulubatlı Hasan High School in 2019.</p>
       <hr style="margin-left: 2%; margin-right: 2%">
-      <p>Currently in the learning phase in Computer Science, Computer Engineering, Sofware Engineering, Data Science, Machine Learning, Deep Learning, Neural Networks and Data anaylsis.</p>
+      <p>Currently in the learning phase in Computer Science, Computer Engineering, Sofware Engineering, Data Science, Machine Learning, Deep Learning, Artificial Neural Networks, Image Processing and Data anaylsis.</p>
     </section>
 
-    <div class="Follow">
-      <p style="font-size: 40px; font-family: sans-serif; text-align: center;">Follow Me on:</p>
+    <div>
+      <table>
+        <caption style="text-align: center; font-size: 40px;">Follow Me on:</caption>
+          <tr>
+            <th><a href="https://www.linkedin.com/in/yusuf-aslan-47052b1b6x" target="_blank"><img src="images/linkedin.png" alt="insta" style="height: 60px; width: 60px;"></a></th>
+            <th><a href="https://twitter.com/yuusufaslan" target="_blank"><img src="images/twitter.png" alt="insta" style="height: 60px; width: 60px;"></a></th>
+            <th><a href="https://instagram.com/yusuufaslan" target="_blank"><img src="images/instagram.png" alt="insta" style="height: 60px; width: 60px;"></a></th>
+          </tr>
+          <tr>
+            <td>@yusuufaslan</td>
+            <td>@yuusufaslan</td>
+            <td>@yusuufaslan</td>
+          </tr>
+      </table>
     </div>
-    <div class="social">
-      <ul>
-        <a href="https://instagram.com/yusuufaslan" target="_blank"><img src="images/instagram.png" alt="insta" style="height: 60px; width: 60px;"></a>
-      </ul>
-      <ul>
-        <a href="https://twitter.com/yuusufaslan" target="_blank"><img src="images/twitter.png" alt="tw" style="height: 60px; width: 60px;"></a>
-      </ul>
-      </div>
+
+
 
 
     
@@ -79,7 +92,6 @@
       Last Update: <span id="guncelleme">Thu, 21 Dec 2020 22:44:34 GMT</span>
     </footer>
     
-
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -92,3 +104,29 @@
     </script>
 </body>
 </html>
+
+
+
+<!-- /* .social img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+} */
+/* ul {
+display: inline-block;
+margin-left: 29%;
+margin-bottom: 3%;
+} */ -->
+<!-- <div class="Follow">
+      <p style="font-size: 40px; font-family: sans-serif; text-align: center;">Follow Me on:</p>
+    </div> -->
+    <!-- <div class="social">
+      <ul>
+        <a href="https://instagram.com/yusuufaslan" target="_blank"><img src="images/instagram.png" alt="insta" style="height: 60px; width: 60px;"></a>
+      </ul>
+      <ul>
+        <a href="https://twitter.com/yuusufaslan" target="_blank"><img src="images/twitter.png" alt="tw" style="height: 60px; width: 60px;"></a>
+      </ul>
+      </div> -->
