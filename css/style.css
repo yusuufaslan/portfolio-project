@@ -41,19 +41,22 @@ body {
 }
   
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child), .topnav a:not(:last-child) {display: none;}
     .topnav a.icon {
         float: right;
         display: block;
     }
-    
+    .topnav a#name {
+        float: left;
+        display: block;
+    }
 }
   
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
         float: right;
-        /* position: absolute; */
+        position: absolute;
         right: 0;
         top: 0;
     }
